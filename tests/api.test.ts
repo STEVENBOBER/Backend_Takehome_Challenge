@@ -1,5 +1,7 @@
 const request = require('supertest');
-const app = require('../server'); // Update the path to your Express app as needed
+const app = require('../server');
+ 
+// Reminder: Update the paths to your Express app as needed.
 
 describe('GET /api/quotes/best-three', () => {
   test('responds to /api/quotes/best-three with 400 because no userId passed', async () => {

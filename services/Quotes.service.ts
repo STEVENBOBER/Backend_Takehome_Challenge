@@ -3,7 +3,6 @@ import { head } from "lodash"
 import { IInsertQuoteParams, insertQuote } from "../db/sql/insertQuote.queries"
 import {
   getBestThreeQuotesByUserId,
-  IGetBestThreeQuotesByUserIdParams
 } from "../db/sql/getBestThreeQuotesByUserId.queries"
 
 
